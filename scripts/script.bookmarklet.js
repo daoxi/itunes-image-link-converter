@@ -8,5 +8,6 @@ javascript: (function () {
     return newUrl;
   }
   const newUrl = convertUrl(location.href);
-  window.open(newUrl, "_blank");
+  /* Go to the new URL in the current tab */
+  window.open(newUrl, "_self");
 })();
