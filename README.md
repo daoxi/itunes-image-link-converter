@@ -1,4 +1,5 @@
-On the iTunes websites ([Apple Music/Radio](https://music.apple.com), [Podcasts](https://podcasts.apple.com), [Apps/Games](https://www.apple.com/app-store), etc.), you can get the cover image (e.g. by `Open in new tab` or `Inspect`), however, these images are resized at lower resolutions (removing the resizing suffix (e.g. "/540x540bb.webp") will not work), so this [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) script converts the resized image link to the original image link (to obtain the cover image in its original quality).
+## About
+On various iTunes websites ([Apple Music/Radio](https://music.apple.com), [Podcasts](https://podcasts.apple.com), [Apps/Games](https://www.apple.com/app-store), etc.), you can get the cover image (e.g. by `Open in new tab` or `Inspect`), however, these images are **resized** at lower resolutions (removing the resizing suffix (e.g. "/540x540bb.webp") will not work), so this [bookmarklet](https://en.wikipedia.org/wiki/Bookmarklet) script converts the resized image link to the **original** image link (to obtain the cover image in its original quality).
 
 ## How to use
 Create a new bookmark in your browser, copy the entire content from **script.bookmarklet.js** into the URL field of the bookmark.  
